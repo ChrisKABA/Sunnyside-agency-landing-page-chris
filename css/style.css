@@ -338,16 +338,27 @@ li {
 
 /* ------------------ Responsive ---------------------  */
 
-@media screen and (max-width: 1024px) {
+
+/* @media screen and (max-width: 1023px) {
+  :root{  
+    --default-padding: 2rem 1.5rem;
+    --title-fontSize: 2rem;
+  }
   .nav__list {
     display: none;
   }
   .nav__hamburger {
     display: block;
   }
+  .nav{
+    width: auto;
+  }
+  .header{
+    justify-content: 0px;
+  }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .nav__list {
     display: flex;
   }
@@ -355,3 +366,29 @@ li {
     display: none;
   }
 }
+ */
+
+ @media screen and  (max-width: 1024px){
+  
+  :root {
+          /* padding */
+  --default-padding: 2rem 4rem;
+  --button-padding: 0.8rem 1rem;
+  --section-padding: 9rem 0;
+  --description-padding: 10rem;
+  }
+  .nav__list {
+    display: flex;
+  }
+  .nav__hamburger {
+    display: none;
+  }
+  .hero{
+    background-image: url(./../images/desktop/image-header.jpg);
+    font-size: 70px;
+  }
+
+ }
+ @media screen and  (min-width: 1025px){
+
+ }
