@@ -344,6 +344,7 @@ li {
     /* padding */
     --default-padding: 2rem 1.5rem;
     --section-padding: 15rem 0;
+    --description-padding: 1rem;
 
     /* font size */
     --title-fontSize: 2rem;
@@ -364,10 +365,12 @@ li {
   .hero__title {
     letter-spacing: 0.7rem;
   }
-  .about {
+  .about:nth-child(1){
     flex-direction: column-reverse;
   }
-  
+  .description__container {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
