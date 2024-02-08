@@ -298,6 +298,11 @@ li {
   width: 100%;
   height: 100%;
 }
+/* ---------mobile dissapare-------*/
+
+#gallery__mobile{
+  display: none;
+}
 
 /* ---------- Footer --------------- */
 
@@ -343,8 +348,9 @@ li {
 
     /* padding */
     --default-padding: 2rem 1.5rem;
-    --section-padding: 15rem 0;
+    --section-padding: 9rem 0;
     --description-padding: 1rem;
+    --black-variant-color: #8d8d90be;
 
     /* font size */
     --title-fontSize: 2rem;
@@ -384,6 +390,26 @@ li {
   }
   .expertise__container {
     display: block;
+  }
+  .testimonies {
+    padding: 5rem 0;
+  }
+  .testimonies__title {
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+  .testimonies__container {
+    padding: 3rem 2.7rem;
+  }
+  .gallery{
+    display: none;
+  }
+  #gallery__mobile{
+    display: flex;
+  }
+  #gallery__mobile img{
+    width: 100%;
   }
 
 }
