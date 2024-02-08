@@ -349,7 +349,8 @@ li {
     /* padding */
     --default-padding: 2rem 1.5rem;
     --section-padding: 9rem 0;
-    --description-padding: 1rem;
+    --description-padding: 5rem 2rem;
+    --section-title: 2.4rem;
     --black-variant-color: #8d8d90be;
 
     /* font size */
@@ -381,6 +382,12 @@ li {
   .about__image {
     flex-basis: 100%;
   }
+  .about__text {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
   .expertise--bg-apple {
     background-image: url(./../images/mobile/image-graphic-design.jpg);
   }
